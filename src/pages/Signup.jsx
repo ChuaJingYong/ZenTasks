@@ -9,6 +9,7 @@ import {
   Toast,
   ToastContainer,
 } from "react-bootstrap";
+import signupIcon from "../assets/signup-icon.png";
 
 export default function Signup() {
   const [email, setEmail] = useState("");
@@ -106,11 +107,7 @@ export default function Signup() {
     <>
       <Container className="mt-3">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            style={{ width: "80px" }}
-            src="https://cdn-icons-png.flaticon.com/256/5040/5040473.png"
-            alt=""
-          />
+          <img style={{ width: "80px" }} src={signupIcon} alt="" />
           <h1 style={{ display: "inline" }} className="ms-3">
             Signup
           </h1>

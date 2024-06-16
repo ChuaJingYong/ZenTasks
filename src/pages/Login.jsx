@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Container, Button, Form, Modal } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthContext";
+import loginIcon from "../assets/login-icon.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -88,11 +89,7 @@ export default function Login() {
     <>
       <Container className="p-3">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            style={{ width: "80px" }}
-            src="https://cdn-icons-png.flaticon.com/512/5238/5238442.png"
-            alt=""
-          />
+          <img style={{ width: "80px" }} src={loginIcon} alt="" />
           <h1 style={{ display: "inline" }} className="ms-3">
             Login
           </h1>

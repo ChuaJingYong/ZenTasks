@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 import "./App.css";
+
 // Routes setup
 import Home from "./pages/Home";
 import Login from "./pages/Login";

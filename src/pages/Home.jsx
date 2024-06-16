@@ -3,6 +3,8 @@ import { Container, Button, Row, Col } from "react-bootstrap";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 import TodoCard from "./TodoCard";
+import loginIcon from "../assets/login-icon.png";
+import signupIcon from "../assets/signup-icon.png";
 
 export default function Home() {
   // FUNCTIONS TO CREATE
@@ -60,11 +62,7 @@ function WelcomePage() {
           >
             <h1>Welcome to your personal Todo App!</h1>
             <p className="my-4">Please Login to get started</p>
-            <img
-              style={{ width: "50px" }}
-              src="https://cdn-icons-png.flaticon.com/512/5238/5238442.png"
-              alt=""
-            />
+            <img style={{ width: "50px" }} src={loginIcon} alt="" />
             <a
               onClick={() => {
                 navigate("/login");
@@ -74,11 +72,7 @@ function WelcomePage() {
               Login
             </a>
             <br />
-            <img
-              style={{ width: "50px" }}
-              src="https://cdn-icons-png.flaticon.com/256/5040/5040473.png"
-              alt=""
-            />
+            <img style={{ width: "50px" }} src={signupIcon} alt="" />
             <a
               onClick={() => {
                 navigate("/signup");
