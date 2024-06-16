@@ -47,7 +47,7 @@ function Layout({ data }) {
                 }}
                 rounded
               />
-              <span>My Todo App</span>
+              <span>ZenTasks</span>
             </Navbar.Brand>
             <Nav
               variant="tabs"

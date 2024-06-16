@@ -58,10 +58,13 @@ function WelcomePage() {
               padding: "2rem",
               borderRadius: "10px",
               textAlign: "center",
+              width: "50%",
             }}
           >
-            <h1>Welcome to your personal Todo App!</h1>
-            <p className="my-4">Please Login to get started</p>
+            <h1>Welcome to ZenTasks!</h1>
+            <p className="my-4">
+              Unlock Your Productivity Zen - Login to get started!
+            </p>
             <img style={{ width: "50px" }} src={loginIcon} alt="" />
             <a
               onClick={() => {
