@@ -1,7 +1,8 @@
-# Todo App for multiple users
+# ZenTasks
 
 Built with React, Bootstrap, Vite
 
+- a topo app for multiple users
 - uses local storage for storing different users' data
 - integrates react-router-dom to handle routing for different pages
 - includes dynamic url for editing each unique todos
