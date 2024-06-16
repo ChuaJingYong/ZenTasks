@@ -9,7 +9,7 @@ Built with React, Bootstrap, Vite
 
 ### Project Link
 
-https://todo-app-with-multipler-users.vercel.app/
+https://zentasks.vercel.app/
 
 ### How to use
 
