@@ -87,8 +87,17 @@ export default function Login() {
   return (
     <>
       <Container className="p-3">
-        <h1>Login</h1>
-        <h3>Login to get started💪!</h3>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <img
+            style={{ width: "80px" }}
+            src="https://cdn-icons-png.flaticon.com/512/5238/5238442.png"
+            alt=""
+          />
+          <h1 style={{ display: "inline" }} className="ms-3">
+            Login
+          </h1>
+        </div>
+        <h3 className="mt-1">Login to get started💪!</h3>
 
         <ErrorModal></ErrorModal>
 

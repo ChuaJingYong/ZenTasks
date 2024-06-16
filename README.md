@@ -2,7 +2,15 @@
 
 Built with React, Bootstrap, Vite
 
-How to use
+- uses local storage for storing different users' data
+- integrates react-router-dom to handle routing for different pages
+- includes dynamic url for editing each unique todos
+
+### Project Link
+
+https://todo-app-with-multipler-users.vercel.app/
+
+### How to use
 
 1. Create a new user account (signup) if it's your first time using
 2. After creating, click on login

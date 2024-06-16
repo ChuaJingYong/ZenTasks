@@ -69,9 +69,23 @@ function WelcomePage() {
               onClick={() => {
                 navigate("/login");
               }}
-              className="btn btn-primary ms-3"
+              className="btn btn-primary ms-3 px-3"
             >
               Login
+            </a>
+            <br />
+            <img
+              style={{ width: "50px" }}
+              src="https://cdn-icons-png.flaticon.com/256/5040/5040473.png"
+              alt=""
+            />
+            <a
+              onClick={() => {
+                navigate("/signup");
+              }}
+              className="btn btn-primary ms-3"
+            >
+              Signup
             </a>
           </div>
         </div>

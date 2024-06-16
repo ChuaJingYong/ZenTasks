@@ -105,8 +105,17 @@ export default function Signup() {
   return (
     <>
       <Container className="mt-3">
-        <h1>Signup</h1>
-        <h3>Please create your account to get started🔻!</h3>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <img
+            style={{ width: "80px" }}
+            src="https://cdn-icons-png.flaticon.com/256/5040/5040473.png"
+            alt=""
+          />
+          <h1 style={{ display: "inline" }} className="ms-3">
+            Signup
+          </h1>
+        </div>
+        <h3 className="mt-1">Please create your account to get started🔻!</h3>
 
         {/* USING A MODAL POPUP -- FOCUS THE USER'S ATTENTION MORE FORCEFULLY */}
         {showModal && (hasMatchingUser ? <ErrorModal /> : <SuccessModal />)}
